@@ -1,0 +1,97 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #fafafa;
+  color: #333;
+}
+
+/* Navbar */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4b0082;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.site-header .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+/* Content Section */
+.content-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.content-section h1 {
+  color: #b22222; /* deep red */
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.content-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.content-section p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+/* Subheadings */
+.content-section h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  color: #4b0082;
+  border-left: 6px solid #b22222;
+  padding-left: 10px;
+}
+
+/* Quote Styling */
+blockquote {
+  border-left: 4px solid #b22222;
+  background: #fce8e8;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #444;
+}
+
+/* Footer */
+footer {
+  background: #4b0082;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
